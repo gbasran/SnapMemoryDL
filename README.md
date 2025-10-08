@@ -1,4 +1,4 @@
-Snapchat Memories Downloader (Student Edition)
+Snapchat Memories Downloader
 
 What this is
 - A simple Windows app that bulk‑downloads your Snapchat Memories from the exported `memories_history.html`.
