@@ -14,7 +14,16 @@ Quick start (no setup)
 - <img width="974" height="344" alt="image" src="https://github.com/user-attachments/assets/1be9c1a1-972e-4a26-af28-4e6163d01a26" />
 
 - Double‑click `run.bat` (or run `python snap_memories_dl.py`).
+- <img width="1001" height="327" alt="image" src="https://github.com/user-attachments/assets/312309e7-7e65-4003-abf0-4b3874f6bf33" />
 - In the app: Click "Select Folder" and choose your exported Snapchat folder (the one that contains the `html` folder and `memories_history.html`). Click "Start".
+- <img width="1118" height="625" alt="image" src="https://github.com/user-attachments/assets/b3ae6a9c-4b1d-4fd0-a754-7bad1a9f7232" />
+- <img width="841" height="499" alt="image" src="https://github.com/user-attachments/assets/4696bd39-bd58-4e36-b6af-335aa04558e5" />
+- <img width="1112" height="625" alt="image" src="https://github.com/user-attachments/assets/618ee89c-03b3-4e74-9837-db2bfd14ebf8" />
+- <img width="1113" height="629" alt="image" src="https://github.com/user-attachments/assets/5060be7e-80c9-4998-8e44-dacae499f639" />
+
+
+
+
 
 Notes
 - If Snapchat links are expired, regenerate your export. The app follows signed S3 links; expired signatures won’t work.
