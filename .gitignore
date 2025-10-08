@@ -30,5 +30,8 @@ Thumbs.db
 # Local downloads/debug
 snap_memories/
 
-# Local ffmpeg bundle (ignored in git)
-bin/
+# Local ffmpeg bundle
+# Ignore everything under bin/ by default, but allow ffmpeg.exe and ffprobe.exe
+bin/*
+!bin/ffmpeg.exe
+!bin/ffprobe.exe
