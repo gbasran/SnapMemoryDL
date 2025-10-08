@@ -10,6 +10,9 @@ Quick start (no setup)
 - Clone or download this repo.
 - You must download `ffmpeg` and `ffprobe`, go to `ffmpeg.org` and download a trusted build.
 - Drag and drop the `/bin` folder from the download to the repo
+- <img width="2172" height="501" alt="image" src="https://github.com/user-attachments/assets/f63ada5d-b270-40c6-9ad1-9b09b50bbf29" />
+- <img width="974" height="344" alt="image" src="https://github.com/user-attachments/assets/1be9c1a1-972e-4a26-af28-4e6163d01a26" />
+
 - Double‑click `run.bat` (or run `python snap_memories_dl.py`).
 - In the app: Click "Select Folder" and choose your exported Snapchat folder (the one that contains the `html` folder and `memories_history.html`). Click "Start".
 
