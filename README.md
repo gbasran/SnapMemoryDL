@@ -7,13 +7,15 @@ What this is
 
 Quick start (no setup)
 - Install Python 3.8+ from python.org and make sure "Add to PATH" is checked.
-- Clone or download this repo. The repo already includes `bin/ffmpeg.exe` and `bin/ffprobe.exe`.
+- Clone or download this repo.
+- You must download `ffmpeg` and `ffprobe`, go to `ffmpeg.org` and download a trusted build.
+- Drag and drop the `/bin` folder from the download to the repo
 - Double‑click `run.bat` (or run `python snap_memories_dl.py`).
 - In the app: Click "Select Folder" and choose your exported Snapchat folder (the one that contains the `html` folder and `memories_history.html`). Click "Start".
 
 Notes
 - If Snapchat links are expired, regenerate your export. The app follows signed S3 links; expired signatures won’t work.
-- This repo includes `bin/ffmpeg.exe` and `bin/ffprobe.exe`, so video conversion to H.264 works out‑of‑the‑box.
+- This repo does not includes `bin/ffmpeg.exe` and `bin/ffprobe.exe` and all accessory `.dll`, so video conversion to H.264 works requires downloading.
 
 Troubleshooting
 - If images open as "unsupported format", they were likely HTML error pages. The app now detects that and saves a debug file in `snap_memories\debug` to help diagnose. Re‑generate your export if links are expired.
@@ -21,7 +23,7 @@ Troubleshooting
 
 Project layout
 - `snap_memories_dl.py` — main app. Auto-installs Python deps on first run.
-- `bin/` — includes `ffmpeg.exe` and `ffprobe.exe` used for video conversion.
+- `bin/` — the bin folder from downloading a ffmpeg trusted build.
 - `run.bat` — convenience launcher for Windows.
 - `requirements.txt` — for developers.
 - `build.bat` — optional local EXE builder.
